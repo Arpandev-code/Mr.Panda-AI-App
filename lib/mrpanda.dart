@@ -14,7 +14,7 @@ class _ChatGPTAppState extends State<ChatGPTApp> {
   final List<String> _messages = [];
 
   Future<String> _getChatResponse(String message) async {
-    const String apiKey = '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';
+    const String apiKey = 'YOUR API KEY';
     const String apiUrl =
         'https://api.openai.com/v1/engines/text-davinci-003/completions';
 
